@@ -4,24 +4,24 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
+    siteTitle: `rujša.`,
+    siteTitleAlt: `rujša.`,
+    siteHeadline: `rujša.`,
+    siteUrl: `https://rujsa.com`,
+    siteDescription: `Clay creatures and creations of an engineer who needed a hobby. | Glineni stvori in ustvori inženirke, ki ni več želela gnesti samo tipkovnice.`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `@lekoarts_de`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-jodie`,
-      // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
-          { name: `Instagram`, slug: `/instagram` },
+          { name: `Creations`, slug: `/projects` },
+          { name: `Insta`, slug: `/instagram` },
           { name: `About`, slug: `/about` },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
     {
@@ -34,9 +34,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jodie - @lekoarts/gatsby-theme-jodie`,
-        short_name: `jodie`,
-        description: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+        name: `rujša.`,
+        short_name: `rujša.`,
+        description: `Clay creatures and creations of an engineer who needed a hobby. | Glineni stvori in ustvori inženirke, ki ni več želela gnesti samo tipkovnice.`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#b75e09`,

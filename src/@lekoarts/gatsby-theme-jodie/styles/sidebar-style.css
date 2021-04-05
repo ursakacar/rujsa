@@ -1,0 +1,21 @@
+img {
+  width: 5rem;
+}
+
+@media (min-width: 400px) {
+  img {
+    width: 10rem;
+  }
+}
+
+@media (min-width: 604px) {
+  img {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  img {
+    width: 16rem;
+  }
+}
