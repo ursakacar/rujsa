@@ -19,8 +19,8 @@ module.exports = {
       options: {
         navigation: [
           { name: `Creations`, slug: `/projects` },
-          { name: `Insta`, slug: `/instagram` },
           { name: `About`, slug: `/about` },
+          { name: `Insta`, slug: `/instagram` },
         ],
       },
     },
